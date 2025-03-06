@@ -2,7 +2,6 @@
   "name": "stevo-obsidian",
   "version": "1.0.0",
   "description": "Test task for Frontend Developer at Obsidian Black Lemon",
-  "main": "index.js",
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build src/index.html"
