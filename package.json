@@ -4,7 +4,8 @@
   "description": "Test task for Frontend Developer at Obsidian Black Lemon",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/cetvrtak/stevo-obsidian/issues"
   },
-  "homepage": "https://github.com/cetvrtak/stevo-obsidian#readme"
+  "homepage": "https://github.com/cetvrtak/stevo-obsidian#readme",
+  "devDependencies": {
+    "parcel": "^2.13.3"
+  }
 }
