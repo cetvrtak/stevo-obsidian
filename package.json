@@ -1,0 +1,19 @@
+{
+  "name": "stevo-obsidian",
+  "version": "1.0.0",
+  "description": "Test task for Frontend Developer at Obsidian Black Lemon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cetvrtak/stevo-obsidian.git"
+  },
+  "author": "Stevo Iliskovic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cetvrtak/stevo-obsidian/issues"
+  },
+  "homepage": "https://github.com/cetvrtak/stevo-obsidian#readme"
+}
