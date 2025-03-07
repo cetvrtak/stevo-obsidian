@@ -30,9 +30,6 @@ body {
   align-items: center;
   justify-content: center;
 }
-.hero-img img {
-  max-width: 910px;
-}
 
 .hero-text {
   width: 100%;
