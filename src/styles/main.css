@@ -124,10 +124,16 @@ body {
   text-align: left;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
   .hero {
     flex-direction: column;
   }
+  .hero-img img {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 425px) {
   .hero-img img {
     max-width: 425px;
   }
