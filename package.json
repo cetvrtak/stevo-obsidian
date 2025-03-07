@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Test task for Frontend Developer at Obsidian Black Lemon",
   "scripts": {
-    "start": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "start": "parcel src/pages/products/hair_mask/index.html",
+    "build": "parcel build src/pages/products/hair_mask/index.html"
   },
   "repository": {
     "type": "git",
