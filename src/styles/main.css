@@ -159,6 +159,7 @@ body {
   width: 16px;
   height: 16px;
   display: none;
+  transition: all 0.3s;
 }
 .cart-option-selected .cart-option-inner-circle {
   display: flex;
@@ -171,6 +172,7 @@ body {
   line-height: 159.1%;
   letter-spacing: 5%;
   text-align: left;
+  transition: all 0.3s;
 }
 .cart-option-selected .cart-option-text {
   color: rgb(77, 77, 77);
