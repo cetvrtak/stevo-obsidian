@@ -13,6 +13,52 @@ body {
   letter-spacing: 0%;
   text-align: left;
 }
+a {
+  transition: all 0.5s;
+}
+a:link,
+a:visited {
+  color: rgb(77, 77, 77);
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 159.1%;
+  letter-spacing: 5%;
+  text-align: center;
+  text-decoration: none;
+}
+a:hover,
+a:active {
+  color: rgba(77, 77, 77, 0.5);
+  text-decoration: underline;
+}
+.container {
+  padding: 0 60px;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+nav {
+  margin: 0 auto;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.nav-link {
+  list-style: none;
+}
+.nav-icons {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
 
 /* HERO */
 .hero {
