@@ -74,3 +74,18 @@ function addToCart() {
 }
 
 addToCartBtn.addEventListener('click', addToCart);
+
+// CAROUSEL
+$('.carousel-slides').slick({
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 431,
+      settings: {
+        slidesToShow: 1,
+      },
+    },
+  ],
+});

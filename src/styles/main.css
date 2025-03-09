@@ -219,6 +219,70 @@ body {
   text-align: center;
 }
 
+/* CAROUSEL */
+.carousel {
+  padding: 32px 72px;
+}
+.carousel-title {
+  color: rgb(77, 77, 77);
+  font-family: Lato;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 13px;
+}
+.carousel-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.carousel-slide-image {
+  display: flex;
+  align-items: center;
+}
+.carousel-slide-image img {
+  max-width: 363px;
+  margin-bottom: 16px;
+}
+.carousel-slide-title {
+  color: rgb(77, 77, 77);
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: 3px;
+}
+.carousel-slide-desc {
+  color: rgb(77, 77, 77);
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.carousel-slide-price {
+  color: rgb(77, 77, 77);
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 159.1%;
+  letter-spacing: 5%;
+  text-align: left;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: black !important;
+  filter: invert(1);
+}
+
 @media screen and (max-width: 768px) {
   .hero {
     flex-direction: column;
@@ -288,6 +352,51 @@ body {
     font-weight: 500;
     line-height: 160%;
     letter-spacing: 0%;
+    text-align: left;
+  }
+
+  .carousel {
+    padding: 32px 21px;
+  }
+  .carousel-title {
+    color: rgb(77, 77, 77);
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .carousel-slide-image img {
+    width: 100%;
+  }
+  .carousel-slide-title {
+    color: rgb(77, 77, 77);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  .carousel-slide-desc {
+    color: rgb(77, 77, 77);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  .carousel-slide-price {
+    color: rgb(77, 77, 77);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 159.1%;
+    letter-spacing: 5%;
     text-align: left;
   }
 }
