@@ -1,4 +1,4 @@
-import '../styles/main.css';
+import '../styles/main.css?v=1';
 
 // CART
 const buyEl = document.querySelector('.cart-option-buy');

@@ -33,7 +33,10 @@ a:active {
   text-decoration: underline;
 }
 .container {
-  padding: 0 60px;
+  width: 100%;
+  max-width: 1305px;
+  padding: 0 20px;
+  margin: 0 auto;
 }
 
 /* HEADER */
@@ -342,9 +345,6 @@ nav {
 }
 
 @media screen and (max-width: 425px) {
-  .container {
-    padding: 0 28px;
-  }
   .menu-mob {
     display: flex;
     align-items: center;
