@@ -405,16 +405,14 @@ svg {
   margin-bottom: 13px;
 }
 .carousel-slide {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  padding: 0 32px;
 }
 .carousel-slide-image {
   display: flex;
   align-items: center;
 }
 .carousel-slide-image img {
-  max-width: 363px;
+  width: 100%;
   margin-bottom: 16px;
 }
 .carousel-slide-title {
