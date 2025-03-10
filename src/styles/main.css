@@ -100,14 +100,14 @@ nav {
   position: absolute;
   width: 14px;
   left: -20px;
-  top: -1px;
+  top: -3px;
 }
 .hero-crumbs-text {
   color: rgb(77, 77, 77);
   font-family: Poppins;
   font-size: 11px;
   font-weight: 300;
-  line-height: 159.1%;
+  /* line-height: 159.1%; */
   letter-spacing: 5%;
   text-align: left;
 }
@@ -254,6 +254,7 @@ nav {
   line-height: 159.1%;
   letter-spacing: 5%;
   text-align: center;
+  cursor: pointer;
 }
 
 .cart-add-button {
@@ -358,6 +359,7 @@ svg {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  cursor: pointer;
 }
 .spec-header-text {
   color: rgb(77, 77, 77);
@@ -404,6 +406,9 @@ svg {
   text-align: center;
   margin-bottom: 13px;
 }
+.carousel-slides {
+  padding: 0 16px;
+}
 .carousel-slide {
   padding: 0 32px;
 }
@@ -448,8 +453,9 @@ svg {
 }
 .slick-prev:before,
 .slick-next:before {
-  color: black !important;
-  filter: invert(1);
+  background: black;
+  border-radius: 50%;
+  font-size: 29px !important;
 }
 
 @media screen and (max-width: 768px) {
@@ -487,6 +493,7 @@ svg {
   .hero-crumbs-mob {
     width: 100%;
     display: flex;
+    align-items: center;
     gap: 4px;
     padding: 16px 28px;
   }
@@ -548,6 +555,12 @@ svg {
   .carousel {
     padding: 32px 21px;
   }
+  .carousel-slides {
+    padding: 0 32px;
+  }
+  .carousel-slide {
+    padding: 0 16px;
+  }
   .carousel-title {
     color: rgb(77, 77, 77);
     font-family: Lato;
@@ -588,5 +601,11 @@ svg {
     line-height: 159.1%;
     letter-spacing: 5%;
     text-align: left;
+  }
+  .slick-prev {
+    left: -5px !important;
+  }
+  .slick-next {
+    right: 5px !important;
   }
 }
