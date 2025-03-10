@@ -71,6 +71,17 @@ function addToCart() {
   };
 
   localStorage.setItem('obsidianCart', JSON.stringify(cartItem));
+  animate();
+}
+
+function animate() {
+  const addToCartText = document.querySelector('.cart-add-button-text');
+  const addToCartAnimation = document.querySelector(
+    '.cart-add-button-animation'
+  );
+
+  addToCartText.classList.add('hidden');
+  addToCartAnimation.classList.remove('hidden');
 }
 
 addToCartBtn.addEventListener('click', addToCart);
