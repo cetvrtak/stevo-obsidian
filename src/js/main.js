@@ -86,6 +86,25 @@ function animate() {
 
 addToCartBtn.addEventListener('click', addToCart);
 
+// SPECS
+$(document).ready(function () {
+  $('.spec-header').on('click', function () {
+    let spec = $(this).closest('.spec');
+    let specDesc = spec.find('.spec-desc');
+    let icon = spec.find('.spec-header-icon');
+
+    // Close all other specs
+    $('.spec-desc').not(specDesc).slideUp();
+    $('.spec-header-icon').not(icon).text('+');
+
+    // Toggle current spec
+    if (!specDesc.is(':visible')) {
+      specDesc.slideDown();
+      icon.text('-');
+    }
+  });
+});
+
 // CAROUSEL
 $('.carousel-slides').slick({
   infinite: true,
