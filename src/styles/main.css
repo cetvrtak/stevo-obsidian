@@ -486,6 +486,7 @@ svg {
   }
   .hero-text {
     padding: 32px 24px;
+    background: rgb(247, 246, 245);
   }
   .hero-crumbs {
     display: none;
@@ -545,7 +546,7 @@ svg {
   }
 
   .specs {
-    padding: 0;
+    padding: 32px 0;
     width: 100%;
   }
   .spec-desc {
