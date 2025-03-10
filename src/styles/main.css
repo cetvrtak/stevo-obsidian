@@ -43,6 +43,9 @@ header {
   justify-content: space-between;
   padding: 10px 0;
 }
+.menu-mob {
+  display: none;
+}
 nav {
   margin: 0 auto;
 }
@@ -339,6 +342,22 @@ nav {
 }
 
 @media screen and (max-width: 425px) {
+  .container {
+    padding: 0 28px;
+  }
+  .menu-mob {
+    display: flex;
+    align-items: center;
+    gap: 21px;
+  }
+  nav,
+  .nav-icon-search {
+    display: none;
+  }
+  .logo {
+    margin: 0 auto;
+  }
+
   .hero-img img {
     max-width: 425px;
   }
