@@ -1,4 +1,4 @@
-import '../styles/main.css?v=2';
+import './carousel.js';
 
 // CART
 const buyEl = document.querySelector('.cart-option-buy');
@@ -103,19 +103,4 @@ $(document).ready(function () {
       icon.text('-');
     }
   });
-});
-
-// CAROUSEL
-$('.carousel-slides').slick({
-  infinite: true,
-  slidesToShow: 3,
-  slidesToScroll: 1,
-  responsive: [
-    {
-      breakpoint: 431,
-      settings: {
-        slidesToShow: 1,
-      },
-    },
-  ],
 });

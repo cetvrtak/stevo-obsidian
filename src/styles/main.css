@@ -1,3 +1,5 @@
+@import './header.css';
+
 /* GENERAL */
 * {
   box-sizing: border-box;
@@ -40,33 +42,6 @@ a:active {
 }
 .hidden {
   display: none;
-}
-
-/* HEADER */
-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px 0;
-}
-.menu-mob {
-  display: none;
-}
-nav {
-  margin: 0 auto;
-}
-.nav-links {
-  display: flex;
-  align-items: center;
-  gap: 30px;
-}
-.nav-link {
-  list-style: none;
-}
-.nav-icons {
-  display: flex;
-  align-items: center;
-  gap: 24px;
 }
 
 /* HERO */
